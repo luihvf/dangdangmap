@@ -1,29 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @import 'maplibre-gl/dist/maplibre-gl.css';
-
-:root { --brand: #F97316; }
-
 body { margin: 0; font-family: 'Pretendard', -apple-system, sans-serif; }
-
-.maplibregl-popup-content {
-  border-radius: 16px !important;
-  padding: 0 !important;
-  overflow: hidden;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.12) !important;
-}
-
-.badge-bounce { animation: bounce 0.4s ease; }
-@keyframes bounce {
-  0%,100% { transform: scale(1); }
-  50% { transform: scale(1.2); }
-}
-
-.slide-up {
-  animation: slideUp 0.3s ease-out;
-}
+.slide-up { animation: slideUp 0.3s ease-out; }
 @keyframes slideUp {
   from { transform: translateY(100%); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
