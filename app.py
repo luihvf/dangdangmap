@@ -84,7 +84,7 @@ def render_place_card(place: pd.Series) -> None:
 places = load_places()
 
 st.title("댕댕여지도")
-st.caption("PGIS 기반 사용자 참여형 반려견 친화 공간 가이드")
+st.caption("with your bestfriends wherever")
 
 with st.sidebar:
     st.header("필터")
